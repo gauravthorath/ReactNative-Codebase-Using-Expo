@@ -19,7 +19,7 @@ const styles = StyleSheet.create({
     
   },
   horizontal: {
-    flexDirection: "Column",
+    flexDirection: "column",
     justifyContent: "space-evenly",
     padding: 10,
     height: "90%"
