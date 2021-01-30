@@ -4,11 +4,12 @@ import { SafeAreaProvider } from 'react-native-safe-area-context';
 
 import useCachedResources from './hooks/useCachedResources';
 import useColorScheme from './hooks/useColorScheme';
-import Navigation from './navigation';
+// import Navigation from './navigation';
 // import Buttons from "./screens/Buttons";
 // import FlatLists from "./screens/FlatList";
 // import DisplayAnImage from "./screens/Image";
-import ImageBackgrounds from "./screens/ImageBackground";
+// import ImageBackgrounds from "./screens/ImageBackground";
+import KeyboardAvoidingView from "./screens/KeyboardAvoidingView";
 
 export default function App() {
   const isLoadingComplete = useCachedResources();
@@ -24,7 +25,8 @@ export default function App() {
         {/* <Buttons></Buttons> */}
         {/* <FlatLists></FlatLists> */}
         {/* <DisplayAnImage></DisplayAnImage> */}
-        <ImageBackgrounds></ImageBackgrounds>
+        {/* <ImageBackgrounds></ImageBackgrounds> */}
+        <KeyboardAvoidingView></KeyboardAvoidingView>
       </SafeAreaProvider>
     );
   }
