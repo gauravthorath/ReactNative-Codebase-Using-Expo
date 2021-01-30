@@ -7,7 +7,8 @@ import useColorScheme from './hooks/useColorScheme';
 import Navigation from './navigation';
 // import Buttons from "./screens/Buttons";
 // import FlatLists from "./screens/FlatList";
-import DisplayAnImage from "./screens/Image";
+// import DisplayAnImage from "./screens/Image";
+import ImageBackgrounds from "./screens/ImageBackground";
 
 export default function App() {
   const isLoadingComplete = useCachedResources();
@@ -18,11 +19,12 @@ export default function App() {
   } else {
     return (
       <SafeAreaProvider>
-        <Navigation colorScheme={colorScheme} />
-        <StatusBar />
+        {/* <Navigation colorScheme={colorScheme} /> */}
+        {/* <StatusBar /> */}
         {/* <Buttons></Buttons> */}
         {/* <FlatLists></FlatLists> */}
-        <DisplayAnImage></DisplayAnImage>
+        {/* <DisplayAnImage></DisplayAnImage> */}
+        <ImageBackgrounds></ImageBackgrounds>
       </SafeAreaProvider>
     );
   }
