@@ -26,7 +26,7 @@ const styles = StyleSheet.create({
   },
   inner: {
     padding: 24,
-    flex: 1,
+    flex: 1,  
     justifyContent: "space-around"
   },
   header: {

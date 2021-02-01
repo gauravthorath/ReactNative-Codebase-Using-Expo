@@ -9,7 +9,8 @@ import useColorScheme from './hooks/useColorScheme';
 // import FlatLists from "./screens/FlatList";
 // import DisplayAnImage from "./screens/Image";
 // import ImageBackgrounds from "./screens/ImageBackground";
-import KeyboardAvoidingView from "./screens/KeyboardAvoidingView";
+// import KeyboardAvoidingView from "./screens/KeyboardAvoidingView";
+import Modals from "./screens/Modal";
 
 export default function App() {
   const isLoadingComplete = useCachedResources();
@@ -26,7 +27,8 @@ export default function App() {
         {/* <FlatLists></FlatLists> */}
         {/* <DisplayAnImage></DisplayAnImage> */}
         {/* <ImageBackgrounds></ImageBackgrounds> */}
-        <KeyboardAvoidingView></KeyboardAvoidingView>
+        {/* <KeyboardAvoidingView></KeyboardAvoidingView> */}
+        <Modals></Modals>
       </SafeAreaProvider>
     );
   }
