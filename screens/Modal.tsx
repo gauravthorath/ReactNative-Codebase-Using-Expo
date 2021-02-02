@@ -10,7 +10,7 @@ import {
 
 //This component works on mobile phones only it will not work if you are watching it on PC browser in mobile size
 
-const Modals = () => {
+// const Modals = () => {
   const [modalVisible, setModalVisible] = useState(false);
   return (
     <View style={styles.centeredView}>
