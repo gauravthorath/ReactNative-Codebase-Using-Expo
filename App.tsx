@@ -16,7 +16,8 @@ import useColorScheme from './hooks/useColorScheme';
 // import ScrollViews from "./screens/SrcollViews";
 // import SectionLists from "./screens/SectionList";
 // import StatusBars from "./screens/StatusBar";
-import Switches from "./screens/Switch";
+// import Switches from "./screens/Switch";
+import TextInANest from "./screens/Text";
 
 export default function App() {
   const isLoadingComplete = useCachedResources();
@@ -40,7 +41,8 @@ export default function App() {
         {/* <ScrollViews></ScrollViews> */}
         {/* <SectionLists></SectionLists> */}
         {/* <StatusBars></StatusBars> */}
-        <Switches></Switches>
+        {/* <Switches></Switches> */}
+        <TextInANest></TextInANest>
       </SafeAreaProvider>
     );
   }
