@@ -14,7 +14,8 @@ import useColorScheme from './hooks/useColorScheme';
 // import Pressables from "./screens/Pressable";
 // import RefreshControls from "./screens/RefreshControl";
 // import ScrollViews from "./screens/SrcollViews";
-import SectionLists from "./screens/SectionList";
+// import SectionLists from "./screens/SectionList";
+import StatusBars from "./screens/StatusBar";
 
 export default function App() {
   const isLoadingComplete = useCachedResources();
@@ -36,7 +37,8 @@ export default function App() {
         {/* <Pressables></Pressables> */}
         {/* <RefreshControls></RefreshControls> */}
         {/* <ScrollViews></ScrollViews> */}
-        <SectionLists></SectionLists>
+        {/* <SectionLists></SectionLists> */}
+        <StatusBars></StatusBars>
       </SafeAreaProvider>
     );
   }
