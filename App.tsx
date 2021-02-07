@@ -11,7 +11,8 @@ import useColorScheme from './hooks/useColorScheme';
 // import ImageBackgrounds from "./screens/ImageBackground";
 // import KeyboardAvoidingView from "./screens/KeyboardAvoidingView";
 // import Modals from "./screens/Modal";
-import Pressables from "./screens/Pressable";
+// import Pressables from "./screens/Pressable";
+import RefreshControls from "./screens/RefreshControl";
 
 export default function App() {
   const isLoadingComplete = useCachedResources();
@@ -30,7 +31,8 @@ export default function App() {
         {/* <ImageBackgrounds></ImageBackgrounds> */}
         {/* <KeyboardAvoidingView></KeyboardAvoidingView> */}
         {/* <Modals></Modals> */}
-        <Pressables></Pressables>
+        {/* <Pressables></Pressables> */}
+        <RefreshControls></RefreshControls>
       </SafeAreaProvider>
     );
   }
