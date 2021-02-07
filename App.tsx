@@ -12,7 +12,8 @@ import useColorScheme from './hooks/useColorScheme';
 // import KeyboardAvoidingView from "./screens/KeyboardAvoidingView";
 // import Modals from "./screens/Modal";
 // import Pressables from "./screens/Pressable";
-import RefreshControls from "./screens/RefreshControl";
+// import RefreshControls from "./screens/RefreshControl";
+import ScrollViews from "./screens/SrcollViews";
 
 export default function App() {
   const isLoadingComplete = useCachedResources();
@@ -32,7 +33,8 @@ export default function App() {
         {/* <KeyboardAvoidingView></KeyboardAvoidingView> */}
         {/* <Modals></Modals> */}
         {/* <Pressables></Pressables> */}
-        <RefreshControls></RefreshControls>
+        {/* <RefreshControls></RefreshControls> */}
+        <ScrollViews></ScrollViews>
       </SafeAreaProvider>
     );
   }
