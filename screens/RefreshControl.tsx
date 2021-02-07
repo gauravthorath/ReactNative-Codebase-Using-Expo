@@ -28,7 +28,7 @@ const RefreshControls = () => {
           />
         }
       >
-        <Text>Pull down to see RefreshControl indicator{ refreshedText }</Text>
+        <Text>Pull down to see RefreshControl indicator { refreshedText }</Text>
       </ScrollView>
     </SafeAreaView>
   );
