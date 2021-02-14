@@ -21,7 +21,7 @@ TextInput : {
   justifyContent:'center',
 
 }
-
+ 
 });
 
 export default UselessTextInput;
