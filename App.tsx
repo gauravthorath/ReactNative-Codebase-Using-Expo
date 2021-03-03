@@ -22,7 +22,8 @@ import useColorScheme from './hooks/useColorScheme';
 // import TouchableHighlightExample from "./screens/TouchableHighlight";
 // import TouchableOpacities from "./screens/TouchableOpacity";
 // import TouchableWithoutFeedbackExample from "./screens/TouchableWithoutFeedback";
-import ViewBoxesWithColorAndText from "./screens/View";
+// import ViewBoxesWithColorAndText from "./screens/View";
+import VirtualiedList from "./screens/VirtualizedList";
 
 export default function App() {
   const isLoadingComplete = useCachedResources();
@@ -52,7 +53,9 @@ export default function App() {
         {/* <TouchableHighlightExample></TouchableHighlightExample> */}
         {/* <TouchableOpacities></TouchableOpacities> */}
         {/* <TouchableWithoutFeedbackExample></TouchableWithoutFeedbackExample> */}
-        <ViewBoxesWithColorAndText></ViewBoxesWithColorAndText>
+        {/* <ViewBoxesWithColorAndText></ViewBoxesWithColorAndText> */}
+        <VirtualiedList></VirtualiedList>
+
       </SafeAreaProvider>
     );
   }
