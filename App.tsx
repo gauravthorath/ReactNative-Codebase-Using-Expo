@@ -25,7 +25,8 @@ import useColorScheme from './hooks/useColorScheme';
 // import ViewBoxesWithColorAndText from "./screens/View";
 // import VirtualiedList from "./screens/VirtualizedList";
 // import InputAccessoryViews from "./screens/InputAccessoryView";
-import MyMaskedView from "./screens/MaskedViewiOS";
+// import MyMaskedView from "./screens/MaskedViewiOS";
+import SafeAreaViews from "./screens/SafeAreaView";
 
 export default function App() {
   const isLoadingComplete = useCachedResources();
@@ -58,7 +59,8 @@ export default function App() {
         {/* <ViewBoxesWithColorAndText></ViewBoxesWithColorAndText> */}
         {/* <VirtualiedList></VirtualiedList> */}
         {/* <InputAccessoryViews></InputAccessoryViews> */}
-        <MyMaskedView></MyMaskedView>
+        {/* <MyMaskedView></MyMaskedView> */}
+        <SafeAreaViews></SafeAreaViews>
 
       </SafeAreaProvider>
     );
