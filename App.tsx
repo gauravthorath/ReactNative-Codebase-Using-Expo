@@ -23,7 +23,8 @@ import useColorScheme from './hooks/useColorScheme';
 // import TouchableOpacities from "./screens/TouchableOpacity";
 // import TouchableWithoutFeedbackExample from "./screens/TouchableWithoutFeedback";
 // import ViewBoxesWithColorAndText from "./screens/View";
-import VirtualiedList from "./screens/VirtualizedList";
+// import VirtualiedList from "./screens/VirtualizedList";
+import InputAccessoryViews from "./screens/InputAccessoryView";
 
 export default function App() {
   const isLoadingComplete = useCachedResources();
@@ -54,7 +55,8 @@ export default function App() {
         {/* <TouchableOpacities></TouchableOpacities> */}
         {/* <TouchableWithoutFeedbackExample></TouchableWithoutFeedbackExample> */}
         {/* <ViewBoxesWithColorAndText></ViewBoxesWithColorAndText> */}
-        <VirtualiedList></VirtualiedList>
+        {/* <VirtualiedList></VirtualiedList> */}
+        <InputAccessoryViews></InputAccessoryViews>
 
       </SafeAreaProvider>
     );
