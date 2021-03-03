@@ -18,7 +18,8 @@ import useColorScheme from './hooks/useColorScheme';
 // import StatusBars from "./screens/StatusBar";
 // import Switches from "./screens/Switch";
 // import TextInANest from "./screens/Text";
-import UselessTextInput from "./screens/TextInput";
+// import UselessTextInput from "./screens/TextInput";
+import TouchableHighlightExample from "./screens/TouchableHighlight";
 
 export default function App() {
   const isLoadingComplete = useCachedResources();
@@ -44,7 +45,8 @@ export default function App() {
         {/* <StatusBars></StatusBars> */}
         {/* <Switches></Switches> */}
         {/* <TextInANest></TextInANest> */}
-        <UselessTextInput></UselessTextInput>
+        {/* <UselessTextInput></UselessTextInput> */}
+        <TouchableHighlightExample></TouchableHighlightExample>
       </SafeAreaProvider>
     );
   }
