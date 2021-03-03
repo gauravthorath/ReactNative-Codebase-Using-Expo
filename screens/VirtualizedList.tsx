@@ -25,7 +25,7 @@ const VirtualiedList = () => {
         data={DATA}
         initialNumToRender={4}
         renderItem={({ item }) => <Item title={item.title} />}
-        keyExtractor={item => item.Key}
+        keyExtractor={item => item.key}
         getItemCount={getItemCount}
         getItem={getItem}
       />
