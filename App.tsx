@@ -24,7 +24,8 @@ import useColorScheme from './hooks/useColorScheme';
 // import TouchableWithoutFeedbackExample from "./screens/TouchableWithoutFeedback";
 // import ViewBoxesWithColorAndText from "./screens/View";
 // import VirtualiedList from "./screens/VirtualizedList";
-import InputAccessoryViews from "./screens/InputAccessoryView";
+// import InputAccessoryViews from "./screens/InputAccessoryView";
+import MyMaskedView from "./screens/MaskedViewiOS";
 
 export default function App() {
   const isLoadingComplete = useCachedResources();
@@ -56,7 +57,8 @@ export default function App() {
         {/* <TouchableWithoutFeedbackExample></TouchableWithoutFeedbackExample> */}
         {/* <ViewBoxesWithColorAndText></ViewBoxesWithColorAndText> */}
         {/* <VirtualiedList></VirtualiedList> */}
-        <InputAccessoryViews></InputAccessoryViews>
+        {/* <InputAccessoryViews></InputAccessoryViews> */}
+        <MyMaskedView></MyMaskedView>
 
       </SafeAreaProvider>
     );
