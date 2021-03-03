@@ -19,7 +19,8 @@ import useColorScheme from './hooks/useColorScheme';
 // import Switches from "./screens/Switch";
 // import TextInANest from "./screens/Text";
 // import UselessTextInput from "./screens/TextInput";
-import TouchableHighlightExample from "./screens/TouchableHighlight";
+// import TouchableHighlightExample from "./screens/TouchableHighlight";
+import TouchableOpacities from "./screens/TouchableOpacity";
 
 export default function App() {
   const isLoadingComplete = useCachedResources();
@@ -46,7 +47,8 @@ export default function App() {
         {/* <Switches></Switches> */}
         {/* <TextInANest></TextInANest> */}
         {/* <UselessTextInput></UselessTextInput> */}
-        <TouchableHighlightExample></TouchableHighlightExample>
+        {/* <TouchableHighlightExample></TouchableHighlightExample> */}
+        <TouchableOpacities></TouchableOpacities>
       </SafeAreaProvider>
     );
   }
