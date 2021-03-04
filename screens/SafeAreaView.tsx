@@ -12,7 +12,7 @@ const SafeAreaViews = () => {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor:'purple'
+    backgroundColor:'#ff00ff'
   },
 });
 
