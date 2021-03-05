@@ -33,7 +33,8 @@ import useColorScheme from './hooks/useColorScheme';
 // import DisplayAnImageWithTintColor from './screens/ImageStyleProps-ImgWithTintColor';
 // import LayoutProps from './screens/LayoutProps';
 // import ShadowProps from './screens/ShadowProps';
-import TextStyleProps from './TextStyleProps';
+// import TextStyleProps from './screens/TextStyleProps';
+import ViewStyleProps from './screens/ViewStyleProps';
 
 export default function App() {
   const isLoadingComplete = useCachedResources();
@@ -74,7 +75,8 @@ export default function App() {
         <DisplayAnImageWithTintColor></DisplayAnImageWithTintColor> */}
         {/* <LayoutProps></LayoutProps> */}
         {/* <ShadowProps></ShadowProps> */}
-        <TextStyleProps></TextStyleProps>
+        {/* <TextStyleProps></TextStyleProps> */}
+        <ViewStyleProps></ViewStyleProps>
       </SafeAreaProvider>
     );
   }
