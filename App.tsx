@@ -31,7 +31,9 @@ import useColorScheme from './hooks/useColorScheme';
 // import ImageStylePropsImgWithBorderRadius from "./screens/ImageStyleProps-ImgWithBorderRadius";
 // import DisplayAnImageWithBorderWidthBorderRadius from "./screens/ImageStyleProps-ImgWithBorderWidthBorderRadius";
 // import DisplayAnImageWithTintColor from './screens/ImageStyleProps-ImgWithTintColor';
-import LayoutProps from './screens/LayoutProps';
+// import LayoutProps from './screens/LayoutProps';
+// import ShadowProps from './screens/ShadowProps';
+import TextStyleProps from './TextStyleProps';
 
 export default function App() {
   const isLoadingComplete = useCachedResources();
@@ -70,7 +72,9 @@ export default function App() {
         <ImageStylePropsImgWithBorderRadius></ImageStylePropsImgWithBorderRadius>
         <DisplayAnImageWithBorderWidthBorderRadius></DisplayAnImageWithBorderWidthBorderRadius>
         <DisplayAnImageWithTintColor></DisplayAnImageWithTintColor> */}
-        <LayoutProps></LayoutProps>
+        {/* <LayoutProps></LayoutProps> */}
+        {/* <ShadowProps></ShadowProps> */}
+        <TextStyleProps></TextStyleProps>
       </SafeAreaProvider>
     );
   }
