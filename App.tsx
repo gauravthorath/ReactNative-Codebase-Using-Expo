@@ -27,10 +27,11 @@ import useColorScheme from './hooks/useColorScheme';
 // import InputAccessoryViews from "./screens/InputAccessoryView";
 // import MyMaskedView from "./screens/MaskedViewiOS";
 // import SafeAreaViews from "./screens/SafeAreaView";
-import ImageStylePropsImgWithStyle from "./screens/ImageStyleProps-ImgWithStyle";
-import ImageStylePropsImgWithBorderRadius from "./screens/ImageStyleProps-ImgWithBorderRadius";
-import DisplayAnImageWithBorderWidthBorderRadius from "./screens/ImageStyleProps-ImgWithBorderWidthBorderRadius";
-import DisplayAnImageWithTintColor from './screens/ImageStyleProps-ImgWithTintColor';
+// import ImageStylePropsImgWithStyle from "./screens/ImageStyleProps-ImgWithStyle";
+// import ImageStylePropsImgWithBorderRadius from "./screens/ImageStyleProps-ImgWithBorderRadius";
+// import DisplayAnImageWithBorderWidthBorderRadius from "./screens/ImageStyleProps-ImgWithBorderWidthBorderRadius";
+// import DisplayAnImageWithTintColor from './screens/ImageStyleProps-ImgWithTintColor';
+import LayoutProps from './screens/LayoutProps';
 
 export default function App() {
   const isLoadingComplete = useCachedResources();
@@ -65,11 +66,11 @@ export default function App() {
         {/* <InputAccessoryViews></InputAccessoryViews> */}
         {/* <MyMaskedView></MyMaskedView> */}
         {/* <SafeAreaViews></SafeAreaViews> */}
-        <ImageStylePropsImgWithStyle></ImageStylePropsImgWithStyle>
+        {/* <ImageStylePropsImgWithStyle></ImageStylePropsImgWithStyle>
         <ImageStylePropsImgWithBorderRadius></ImageStylePropsImgWithBorderRadius>
         <DisplayAnImageWithBorderWidthBorderRadius></DisplayAnImageWithBorderWidthBorderRadius>
-        <DisplayAnImageWithTintColor></DisplayAnImageWithTintColor>
-        
+        <DisplayAnImageWithTintColor></DisplayAnImageWithTintColor> */}
+        <LayoutProps></LayoutProps>
       </SafeAreaProvider>
     );
   }
