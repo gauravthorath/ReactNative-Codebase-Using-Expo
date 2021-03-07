@@ -4,6 +4,7 @@ import { SafeAreaProvider } from 'react-native-safe-area-context';
 
 import useCachedResources from './hooks/useCachedResources';
 import useColorScheme from './hooks/useColorScheme';
+import PressEventObjectType from './screens/PressEventObjectType';
 // import Navigation from './navigation';
 // import Buttons from "./screens/Buttons";
 // import FlatLists from "./screens/FlatList";
@@ -76,7 +77,8 @@ export default function App() {
         {/* <LayoutProps></LayoutProps> */}
         {/* <ShadowProps></ShadowProps> */}
         {/* <TextStyleProps></TextStyleProps> */}
-        <ViewStyleProps></ViewStyleProps>
+        {/* <ViewStyleProps></ViewStyleProps> */}
+        <PressEventObjectType></PressEventObjectType>
       </SafeAreaProvider>
     );
   }
