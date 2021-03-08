@@ -37,7 +37,8 @@ import useColorScheme from "./hooks/useColorScheme";
 // import TextStyleProps from './screens/TextStyleProps';
 // import ViewStyleProps from './screens/ViewStyleProps';
 // import PressEventObjectType from './screens/PressEventObjectType';
-import { ReactNodeObjectType } from "./screens/ReactNodeObjectType";
+// import { ReactNodeObjectType } from "./screens/ReactNodeObjectType";
+import { RectObjectTpe } from "./screens/RectObjectType";
 
 export default function App() {
   const isLoadingComplete = useCachedResources();
@@ -81,7 +82,8 @@ export default function App() {
         {/* <TextStyleProps></TextStyleProps> */}
         {/* <ViewStyleProps></ViewStyleProps> */}
         {/* <PressEventObjectType></PressEventObjectType> */}
-        <ReactNodeObjectType></ReactNodeObjectType>
+        {/* <ReactNodeObjectType></ReactNodeObjectType> */}
+        <RectObjectTpe></RectObjectTpe>
       </SafeAreaProvider>
     );
   }
