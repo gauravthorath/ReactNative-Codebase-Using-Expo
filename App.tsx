@@ -1,10 +1,10 @@
-import { StatusBar } from 'expo-status-bar';
-import React from 'react';
-import { SafeAreaProvider } from 'react-native-safe-area-context';
+import { StatusBar } from "expo-status-bar";
+import React from "react";
+import { SafeAreaProvider } from "react-native-safe-area-context";
 
-import useCachedResources from './hooks/useCachedResources';
-import useColorScheme from './hooks/useColorScheme';
-import PressEventObjectType from './screens/PressEventObjectType';
+import useCachedResources from "./hooks/useCachedResources";
+import useColorScheme from "./hooks/useColorScheme";
+
 // import Navigation from './navigation';
 // import Buttons from "./screens/Buttons";
 // import FlatLists from "./screens/FlatList";
@@ -35,14 +35,16 @@ import PressEventObjectType from './screens/PressEventObjectType';
 // import LayoutProps from './screens/LayoutProps';
 // import ShadowProps from './screens/ShadowProps';
 // import TextStyleProps from './screens/TextStyleProps';
-import ViewStyleProps from './screens/ViewStyleProps';
+// import ViewStyleProps from './screens/ViewStyleProps';
+// import PressEventObjectType from './screens/PressEventObjectType';
+import { ReactNodeObjectType } from "./screens/ReactNodeObjectType";
 
 export default function App() {
   const isLoadingComplete = useCachedResources();
   const colorScheme = useColorScheme();
 
   if (!isLoadingComplete) {
-    return null;        
+    return null;
   } else {
     return (
       <SafeAreaProvider>
@@ -78,9 +80,9 @@ export default function App() {
         {/* <ShadowProps></ShadowProps> */}
         {/* <TextStyleProps></TextStyleProps> */}
         {/* <ViewStyleProps></ViewStyleProps> */}
-        <PressEventObjectType></PressEventObjectType>
+        {/* <PressEventObjectType></PressEventObjectType> */}
+        <ReactNodeObjectType></ReactNodeObjectType>
       </SafeAreaProvider>
     );
   }
 }
- 
